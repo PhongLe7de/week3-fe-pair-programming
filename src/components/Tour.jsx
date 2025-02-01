@@ -1,6 +1,6 @@
 import React from "react";
 
-function Tour(image, date, title, info, location, duration, cost) {
+function Tour({image, date, title, info, location, duration, cost}) {
   return (
     <div>
       <div>
